@@ -1,21 +1,19 @@
-import {
-  PiAtBold,
-  PiPhoneBold,
-  PiBuildingsBold,
-  PiWhatsappLogoBold,
-} from "react-icons/pi";
+import { PiAtBold, PiPhoneBold, PiWhatsappLogoBold } from "react-icons/pi";
+
+import { BiLogoFacebook } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
 
 import Link from "next/link";
 
 const Buy = () => {
   return (
-    <section id="buy-section" className="py-20 bg-yellow-50">
+    <section id="buy-section" className="py-20 bg-black">
       <div className="mx-auto max-w-7xl rounded-md grid lg:grid-cols-2 gap-10 px-5">
-        <div className="md:pr-10">
-          <h3 className="text-md mb-2 text-gray-500 font-heading font-semibold uppercase">
+        <div className="md:pr-10 text-white">
+          <h3 className="text-md mb-2  font-heading font-semibold uppercase">
             Contact us
           </h3>
-          <h3 className="md:text-5xl text-3xl text-gray-800 font-heading font-semibold">
+          <h3 className="md:text-5xl text-3xl text-yellow-500 font-heading font-semibold">
             Get Your EmGuarde
           </h3>
           <p className="   mt-5">
@@ -33,12 +31,6 @@ const Buy = () => {
           />
 
           <Button
-            Href={"/"}
-            Icon={PiBuildingsBold}
-            Title={"Kangen Wiz Global"}
-          />
-
-          <Button
             Href={"mailto:info@kangenwizglobal.com"}
             Icon={PiAtBold}
             Title={"info@kangenwizglobal.com"}
@@ -48,6 +40,18 @@ const Buy = () => {
             Href={"tel:+6587517713"}
             Icon={PiPhoneBold}
             Title={"+65 8751 7713"}
+          />
+
+          <Button
+            Href={"https://www.facebook.com/kangenwizglobal/"}
+            Icon={BiLogoFacebook}
+            Title={"Facebook Page"}
+          />
+
+          <Button
+            Href={"https://www.instagram.com/kangenwizglobal/"}
+            Icon={BsInstagram}
+            Title={"Instagram Page"}
           />
         </div>
       </div>

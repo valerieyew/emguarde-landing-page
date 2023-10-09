@@ -14,7 +14,7 @@ const ImpactsOfRadiation = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5">
+      <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-5 gap-5">
         <div className="flex items-center justify-center bg-gray-100 rounded-md">
           <Image
             className="mx-auto rounded-md"
@@ -53,14 +53,6 @@ const ImpactsOfRadiation = () => {
             <li className="p-2">
               <h3 className="font-heading font-semibold text-lg">
                 Possible birth defects in babies
-              </h3>
-              <p className="  text-gray-600">
-                Increased risk of Alzheimer&apos;s Disease and cataracts
-              </p>
-            </li>
-            <li className="p-2">
-              <h3 className="font-heading font-semibold text-lg">
-                Chronic fatigue
               </h3>
               <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts

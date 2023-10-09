@@ -3,10 +3,11 @@ import Link from "next/link";
 import { Menu } from "@headlessui/react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 const nav = [
-  { name: "Purchase", href: "#buy-section" },
-  { name: "Imapacts of Radiation", href: "#impacts-of-radiation" },
-  { name: "Health benefits ", href: "#health-benefits" },
+  { name: "Health Benefits", href: "#health-benefits" },
+  { name: "Specifications", href: "#specification" },
   { name: "Testimonials", href: "#testimonials" },
+  { name: "Events", href: "#events" },
+  { name: "Buy Now", href: "#buy-section" },
 ];
 
 const Header = () => {

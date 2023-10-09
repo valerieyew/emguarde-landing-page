@@ -2,7 +2,7 @@ import Head from "next/head";
 const SEO = () => {
   return (
     <Head>
-      <meta charset="UTF-8" />
+      <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="description"
@@ -10,7 +10,7 @@ const SEO = () => {
       />
       <meta
         name="keywords"
-        content="EmGuarde, Electromagnetic Radiation, EMR Protection, Health Benefits, Testimonials, Radiation Shield, EMF Neutralizer, EMR Defense"
+        content="emGuarde, Kangen, radiation harmoniser, electromagnetic radiation, electromagnetic frequency, emf, emr, Enagic Singapore, Kangen Singapore, emGuarde Singapore, eliminate radiation, environment harmoniser, em waves, radiation waves"
       />
       <title>EmGuarde: Shielding Against Electromagnetic Radiation</title>
 
