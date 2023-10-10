@@ -17,7 +17,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           <Image alt="logo" src={"/logo.png"} width={50} height={50} />
           <h5 className=" py-5 font-heading text-lg text-white font-semibold">
-            EmGuarde Singapore
+            Kangen Wiz Global (emGuarde)
           </h5>
         </div>
         <div>

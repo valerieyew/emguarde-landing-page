@@ -9,7 +9,7 @@ import JoinOurEvent from "../components/JoinOurEvent";
 import Testimonials from "../components/Testimonials";
 import Specification from "../components/Specification";
 import HealthBenefits from "../components/HealthBenefits";
-import ImpactsOfRadiation from "../components/ImapactsOfRadiation";
+import ImpactsOfRadiation from "../components/ImpactsOfRadiation";
 export default function Home() {
   return (
     <>
