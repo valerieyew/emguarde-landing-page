@@ -29,51 +29,52 @@ const Element = ({ name, src }) => (
 
 const WhyBuilt = () => {
     return (
-        <section className='py-14 bg-black '>
-            <div className='text-white mx-auto max-w-5xl mb-10 px-2'>
+        <section className='py-16 px-5 bg-black'>
+            <div className='text-white mx-auto max-w-8xl mb-10'>
                 <h3 className='text-center md:text-3xl text-2xl text font-heading font-semibold'>
                     emGuarde Neutralises the EMF and RF Radiation Emitted By
                     Your Devices
                 </h3>
+            </div>
+
+            <div className='text-white mx-auto max-w-5xl'>
                 <p className='text-center mt-5'>
-                    Any item that runs on electricity produces Electromagnetic
-                    Fields (EMF) radiation. Some devices, especially wireless
+                    Any item that runs on electricity produces <span className="text-yellow-500">Electromagnetic
+                    Fields (EMF) radiation</span>. Some devices, especially wireless
                     ones such as mobile phones, earbuds and TV controller,
-                    produce high amounts of Radiofrequency (RF) Radiation as
+                    produce high amounts of <span className="text-yellow-500">Radiofrequency (RF) Radiation</span> as
                     well.
-                </p>
-                <p className='text-center text-3xl'>
-                    Some scientists have estimated that we are exposed daily to
-                    100 million times more EMF radiation that our grandparents
-                    were.
                 </p>
             </div>
 
-            <div className='mx-auto max-w-7xl mt-5'>
-                <div className='grid grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto mt-10 gap-5 px-4'>
+            <div className='mx-auto max-w-7xl'>
+                <div className='grid grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto mt-8 gap-5 px-4'>
                     {list.map((e) => (
                         <Element {...e} key={e.name} />
                     ))}
                 </div>
             </div>
 
-            <div className='text-white mx-auto max-w-5xl px-2'>
-                <p className='mt-6'>
+            <div className='text-white mx-auto max-w-5xl'>
+                <p>
                     <i>Note:</i>
                 </p>
                 <p className='mt-2'>
-                    <i>
-                        The above things are some of the high EMF and RF
-                        radiation emitters which we may use for long durations.
-                    </i>
+                    The above things are some of the <span className="text-yellow-500">highest EMF and RF
+                    radiation emitters</span> which we may use for long durations.
                 </p>
                 <p className='mt-2'>
-                    <i>
-                        The power densities of their emitted radiation are
-                        around 1000 - 3000 µW/cm² (microwatts), which are in the
-                        orange and red zones based on FCC exposure safety limit.
-                    </i>
+                    The power densities of their emitted radiation are
+                    around 1000 - 3000 µW/cm² (microwatts), which are in the
+                    orange and red zones based on FCC exposure safety limit.
                 </p>
+            </div>
+            <div className='text-white mx-auto max-w-8xl px-2'>
+                <p className='text-center text-yellow-500 text-xl mt-10'><i>
+                    Some scientists have estimated that we are exposed daily to
+                    100 million times more EMF radiation that our grandparents
+                    were.
+                </i></p>
             </div>
         </section>
     );
