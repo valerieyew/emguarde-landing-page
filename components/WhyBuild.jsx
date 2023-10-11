@@ -32,11 +32,20 @@ const WhyBuilt = () => {
         <section className='py-14 bg-black '>
             <div className='text-white mx-auto max-w-5xl mb-10 px-2'>
                 <h3 className='text-center md:text-3xl text-2xl text font-heading font-semibold'>
-                    Biggest Radiation Sources Around Us
+                    emGuarde Neutralises the EMF and RF Radiation Emitted By
+                    Your Devices
                 </h3>
                 <p className='text-center mt-5'>
-                    RF radiation is highly penetrative, and the use of gadgets
-                    such as earbuds and
+                    Any item that runs on electricity produces Electromagnetic
+                    Fields (EMF) radiation. Some devices, especially wireless
+                    ones such as mobile phones, earbuds and TV controller,
+                    produce high amounts of Radiofrequency (RF) Radiation as
+                    well.
+                </p>
+                <p className='text-center text-3xl'>
+                    Some scientists have estimated that we are exposed daily to
+                    100 million times more EMF radiation that our grandparents
+                    were.
                 </p>
             </div>
 
@@ -49,22 +58,20 @@ const WhyBuilt = () => {
             </div>
 
             <div className='text-white mx-auto max-w-5xl px-2'>
-              <p className='mt-6'>
+                <p className='mt-6'>
+                    <i>Note:</i>
+                </p>
+                <p className='mt-2'>
                     <i>
-                        Note:
+                        The above things are some of the high EMF and RF
+                        radiation emitters which we may use for long durations.
                     </i>
                 </p>
                 <p className='mt-2'>
                     <i>
-                        The above things are some of the high RF radiation
-                        emitters which we may use for long durations.
-                    </i>
-                </p>
-                <p className='mt-2'>
-                    <i>
-                        They emit radiofrequency (RF) radiation of around 1000 -
-                        3000 µW/cm² (microwatts), which are in the orange and red zones 
-                        based on FCC exposure safety limit.
+                        The power densities of their emitted radiation are
+                        around 1000 - 3000 µW/cm² (microwatts), which are in the
+                        orange and red zones based on FCC exposure safety limit.
                     </i>
                 </p>
             </div>
