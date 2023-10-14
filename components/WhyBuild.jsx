@@ -29,21 +29,29 @@ const Element = ({ name, src }) => (
 
 const WhyBuilt = () => {
     return (
-        <section className='py-16 px-5 bg-black'>
+        <section className='py-20 px-5 bg-black'>
             <div className='text-white mx-auto max-w-8xl mb-10'>
-                <h3 className='text-center md:text-3xl text-2xl text font-heading font-semibold'>
-                    emGuarde Neutralises the EMF and RF Radiation Emitted By
-                    Your Devices
-                </h3>
+                <h1 className='text-center md:text-4xl text-3xl text font-heading font-semibold'>
+                    emGuarde Neutralises EMF and RF Radiation Emitted By Your
+                    Devices
+                </h1>
             </div>
 
             <div className='text-white mx-auto max-w-5xl'>
                 <p className='text-center mt-5'>
-                    Any item that runs on electricity produces <span className="text-yellow-500">Electromagnetic
-                    Fields (EMF) radiation</span>. Some devices, especially wireless
-                    ones such as mobile phones, earbuds and TV controller,
-                    produce high amounts of <span className="text-yellow-500">Radiofrequency (RF) Radiation</span> as
-                    well.
+                    Any item that runs on electricity produces{" "}
+                    <span className='text-yellow-500'>
+                        Electromagnetic Fields (EMF) radiation
+                    </span>
+                    .
+                </p>
+                <p className='text-center mt-5'>
+                    Some devices, especially wireless ones such as mobile
+                    phones, earbuds and TV controller, produce high amounts of{" "}
+                    <span className='text-yellow-500'>
+                        Radiofrequency (RF) Radiation
+                    </span>{" "}
+                    as well.
                 </p>
             </div>
 
@@ -55,26 +63,40 @@ const WhyBuilt = () => {
                 </div>
             </div>
 
-            <div className='text-white mx-auto max-w-5xl'>
+            <div className='text-white mx-auto max-w-8xl px-2'>
+                <p className='text-center text-yellow-500 text-2xl mt-10'>
+                    <i>
+                        Some scientists have estimated that we are exposed daily
+                        to{" "}
+                        <b className='text-3xl'>
+                            100 million times more EMF radiation
+                        </b>{" "}
+                        that our grandparents were.
+                    </i>
+                </p>
+            </div>
+
+            <div className='text-white mx-auto max-w-5xl mt-10'>
                 <p>
                     <i>Note:</i>
                 </p>
                 <p className='mt-2'>
-                    The above things are some of the <span className="text-yellow-500">highest EMF and RF
-                    radiation emitters</span> which we may use for long durations.
+                    The above things are some of the{" "}
+                    <span className='text-yellow-500'>
+                        highest EMF and RF radiation emitters
+                    </span>{" "}
+                    which we may use for long durations.
                 </p>
                 <p className='mt-2'>
-                    The power densities of their emitted radiation are
-                    around 1000 - 3000 µW/cm² (microwatts), which are in the
-                    orange and red zones based on FCC exposure safety limit.
+                    The power densities of their emitted radiation are around
+                    1000 - 3000 µW/cm² (microwatts), which are in the{" "}
+                    <b className='text-orange-500'>orange</b> and{" "}
+                    <b className='text-red-500'>red</b> zones based on{" "}
+                    <span className='text-yellow-500'>
+                        FCC exposure safety limit
+                    </span>
+                    .
                 </p>
-            </div>
-            <div className='text-white mx-auto max-w-8xl px-2'>
-                <p className='text-center text-yellow-500 text-xl mt-10'><i>
-                    Some scientists have estimated that we are exposed daily to
-                    100 million times more EMF radiation that our grandparents
-                    were.
-                </i></p>
             </div>
         </section>
     );
