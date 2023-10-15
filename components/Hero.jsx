@@ -31,7 +31,7 @@ const Hero = () => {
             width={600}
             height={600}
           />
-          <div className="bg-yellow-600/60 rounded-md py-3 px-1.5">
+          <div className="bg-yellow-600/60 rounded-md pt-2 pb-3 px-1.5">
             <h1 className="font-heading lg:text-4xl md:text-3xl text-2xl font-semibold text-center text-white">
               Protect yourself against the{" "}
               <b className="text-yellow-300 lg:text-5xl md:text-4xl text-3xl"> EMF Radiation</b> lurking all around us
