@@ -8,7 +8,7 @@ const Coverage = () => {
                         width={400}
                         height={200}
                         alt='emGuarde Coverage Dimensions'
-                        src={'/emGuarde Coverage Dimensions.png'}
+                        src={'/emGuarde Coverage With Items (Transparent).png'}
                         className='rounded-lg mx-auto'
                     />
                 </div>
