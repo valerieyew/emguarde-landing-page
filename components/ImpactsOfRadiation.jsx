@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ImpactsOfRadiation = () => {
     return (
-        <section id='impacts-of-radiation' className='py-16 px-5 bg-gray-50'>
+        <section id='impacts-of-radiation' className='pt-16 pb-20 px-5 bg-gray-50'>
             <div className='mx-auto max-w-5xl px-1'>
                 <h3 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
                     How Does Radiation Harm You?

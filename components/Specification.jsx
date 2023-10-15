@@ -25,9 +25,9 @@ const electromagneticHarmonizers = [
 
 const Specification = () => {
   return (
-    <section id="specification" className="py-10 bg-gray-50">
+    <section id="specification" className="py-16">
       <div className="mx-auto max-w-5xl px-2">
-        <h3 className="text-center lg:text-3xl text-2xl font-heading font-semibold">
+        <h3 className="text-center lg:text-4xl text-2xl font-heading font-semibold">
           Specification
         </h3>
         <p className="text-center   mt-5">

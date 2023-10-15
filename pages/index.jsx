@@ -5,6 +5,7 @@ import Video from "../components/Video";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import WhyBuilt from "../components/WhyBuild";
+import Coverage from "../components/Coverage";
 import JoinOurEvent from "../components/JoinOurEvent";
 import Testimonials from "../components/Testimonials";
 import Specification from "../components/Specification";
@@ -20,9 +21,10 @@ export default function Home() {
         <WhyBuilt />
         <ImpactsOfRadiation />
         <HealthBenefits />
-        <Specification />
-        <Video />
         <Testimonials />
+        <Specification />
+        <Coverage />
+        <Video />
         <JoinOurEvent />
         <Buy />
         <Footer />

@@ -3,15 +3,6 @@ const Video = () => {
   return (
     <div className="mx-auto max-w-7xl py-10">
       <div className="grid md:grid-cols-2 p-5  gap-10">
-        <div>
-          <Image
-            width={600}
-            height={200}
-            alt="portable"
-            src={"/portable.gif"}
-            className="rounded-lg"
-          />
-        </div>
         <div className="flex flex-col justify-center">
           <p className="uppercase tracking-wide font-medium font-heading mb-3 text-gray-500">
             Addition Feature
@@ -24,6 +15,15 @@ const Video = () => {
             including portables, ensuring convenience and flexibility in your
             everyday tasks.
           </p>
+        </div>
+        <div>
+          <Image
+            width={600}
+            height={200}
+            alt="portable"
+            src={"/portable.gif"}
+            className="rounded-lg"
+          />
         </div>
       </div>
     </div>
