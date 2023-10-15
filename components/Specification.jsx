@@ -25,8 +25,8 @@ const electromagneticHarmonizers = [
 
 const Specification = () => {
   return (
-    <section id="specification" className="py-16">
-      <div className="mx-auto max-w-5xl px-2">
+    <section id="specification" className="py-16 bg-black">
+      <div className="text-white mx-auto max-w-5xl px-2">
         <h3 className="text-center lg:text-4xl text-2xl font-heading font-semibold">
           Specification
         </h3>
@@ -37,24 +37,24 @@ const Specification = () => {
 
       <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5">
         <div className="px-10">
-          <ul className=" list-decimal ml-5 gap-2 grid">
+          <ul className="text-white list-decimal ml-5 gap-2 grid">
             {electromagneticHarmonizers.map((e, i) => (
               <li className="p-2" key={i}>
                 <h3 className="font-heading font-semibold text-lg">
                   {e.title}
                 </h3>
-                <p className="  text-gray-600">{e.description}</p>
+                <p className="text-gray-300">{e.description}</p>
               </li>
             ))}
           </ul>
         </div>
-        <div className="flex items-center justify-center bg-gray-100 rounded-md px-5">
+        <div className="flex items-center justify-center rounded-md px-5">
           <Image
             className="mx-auto rounded-md"
-            src={"/emguarde-with-dimentions.png"}
-            alt="/"
-            width={500}
-            height={500}
+            src={"/emGuarde dimensions.png"}
+            alt="/Dimensions of the emGuarde device"
+            width={600}
+            height={600}
           />
         </div>
       </div>

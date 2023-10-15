@@ -3,7 +3,10 @@ import Link from 'next/link';
 
 const ImpactsOfRadiation = () => {
     return (
-        <section id='impacts-of-radiation' className='pt-16 pb-20 px-5 bg-gray-50'>
+        <section
+            id='impacts-of-radiation'
+            className='pt-16 pb-20 px-5 bg-gray-50'
+        >
             <div className='mx-auto max-w-5xl px-1'>
                 <h3 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
                     How Does Radiation Harm You?
@@ -23,10 +26,10 @@ const ImpactsOfRadiation = () => {
                     including buses.
                 </p>
                 <p className='text-center mt-5'>
-                    <b className='text-yellow-500'>
+                    <span className='text-yellow-500'>
                         More people have been reporting negative reactions to
                         devices that emit EMF radiation over the years.
-                    </b>{' '}
+                    </span>{' '}
                 </p>
             </div>
 
@@ -40,7 +43,7 @@ const ImpactsOfRadiation = () => {
                         height={500}
                     />
                 </div>
-                <div className='px-5'>
+                <div className='px-5 border rounded-md p-3'>
                     <ul className='list-decimal ml-5 gap-2 grid'>
                         <li className='p-2'>
                             <h3 className='font-heading font-semibold text-lg'>
@@ -93,9 +96,9 @@ const ImpactsOfRadiation = () => {
                                 Unhealthy Heart
                             </h3>
                             <p className='text-gray-600'>
-                                E.g. Extreme fluctuations in blood pressure that
-                                are not treatable by medication, heart attacks
-                                and strokes among the younger population
+                                E.g. Extreme fluctuations in blood pressure
+                                untreatable by medication, heart attacks and
+                                strokes among the younger population
                             </p>
                         </li>
                     </ul>
@@ -110,9 +113,9 @@ const ImpactsOfRadiation = () => {
             <div className='text-white mx-auto max-w-8xl px-2'>
                 <p className='text-center text-yellow-500 text-2xl mt-10'>
                     <i>
-                        With so many radiation sources bombarding our body at different
-                        frequencies all the time, it is difficult to avoid the toxic
-                        effects of radiation without emGuarde.
+                        With so many radiation sources bombarding our body at
+                        different frequencies all the time, it is difficult to
+                        avoid the toxic effects of radiation without emGuarde.
                     </i>
                 </p>
             </div>
