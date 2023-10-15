@@ -5,32 +5,12 @@ const ImpactsOfRadiation = () => {
     return (
         <section
             id='impacts-of-radiation'
-            className='pt-16 pb-20 px-5 bg-gray-50'
+            className='py-16 px-5 bg-gray-50'
         >
             <div className='mx-auto max-w-5xl px-1'>
                 <h3 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
                     How Does Radiation Harm You?
                 </h3>
-                <p className='text-center mt-5'>
-                    We are currently all facing{' '}
-                    <b className='text-yellow-500'>
-                        electrosmog (a form of electromagnetic radiation)
-                    </b>
-                    .
-                </p>
-                <p className='text-center mt-5'>
-                    <b>Computers, laptops and TVs</b> fill our workspaces with
-                    the growth of digitalisation. <b>Car radios</b> give off
-                    especially high EMF radiation. <b>TVs and charging ports</b>{' '}
-                    are also increasingly being added to our public areas
-                    including buses.
-                </p>
-                <p className='text-center mt-5'>
-                    <span className='text-yellow-500'>
-                        More people have been reporting negative reactions to
-                        devices that emit EMF radiation over the years.
-                    </span>{' '}
-                </p>
             </div>
 
             <div className='grid lg:grid-cols-2 max-w-7xl mx-auto mt-8 gap-2'>
@@ -39,21 +19,24 @@ const ImpactsOfRadiation = () => {
                         className='mx-auto rounded-md'
                         src={'/Rouleau Formation.png'}
                         alt='Reduced microcirculatory blood flow due to Rouleau Formation'
-                        width={500}
-                        height={500}
+                        width={400}
+                        height={400}
                     />
                 </div>
-                <div className='px-5 border rounded-md p-3'>
-                    <ul className='list-decimal ml-5 gap-2 grid'>
-                        <li className='p-2'>
-                            <h3 className='font-heading font-semibold text-lg'>
-                                Chronic Health Problems
-                            </h3>
-                            <p className='text-gray-600'>
-                                E.g. Long term headaches, fatigue and cramps
-                            </p>
-                        </li>
-                        <li className='p-2'>
+                <div className='px-5 text-left'>
+                    <p className='mt-5'>
+                        We are currently all facing{' '}
+                        <b className='text-yellow-500'>
+                            electrosmog (a form of electromagnetic radiation)
+                        </b>
+                        .
+                    </p>
+                    <p className='mt-5'>
+                        More people have been reporting negative reactions to
+                        devices that emit EMF radiation over the years.
+                    </p>
+                    <ul className='list-decimal ml-5 mt-5 gap-2 grid'>
+                        <li>
                             <h3 className='font-heading font-semibold text-lg'>
                                 Reduced Blood Circulation
                             </h3>
@@ -72,26 +55,7 @@ const ImpactsOfRadiation = () => {
                                 </Link>
                             </p>
                         </li>
-                        <li className='p-2'>
-                            <h3 className='font-heading font-semibold text-lg'>
-                                Learning, Concentration, and Behavioural
-                                Disorders
-                            </h3>
-                            <p className='text-gray-600'>
-                                E.g. Attention deficit disorder (ADD), slower
-                                memory recall
-                            </p>
-                        </li>
-                        <li className='p-2'>
-                            <h3 className='font-heading font-semibold text-lg'>
-                                Issues Faced During Pregnancy
-                            </h3>
-                            <p className='text-gray-600'>
-                                E.g. Higher chance of miscarriages / birth
-                                defects in babies
-                            </p>
-                        </li>
-                        <li className='p-2'>
+                        <li>
                             <h3 className='font-heading font-semibold text-lg'>
                                 Unhealthy Heart
                             </h3>
@@ -105,13 +69,23 @@ const ImpactsOfRadiation = () => {
                 </div>
             </div>
 
-            {/* <p className='text-center mt-10'>
-                With so many radiation sources bombarding our body at different
-                frequencies all the time, it is difficult to avoid the toxic
-                effects of radiation without emGuarde.
-            </p> */}
-            <div className='text-white mx-auto max-w-8xl px-2'>
-                <p className='text-center text-yellow-500 text-2xl mt-10'>
+            <div className='mt-10 max-w-7xl mx-auto mt-8 text-center text-lg'>
+                <p className='max-w-7xl mt-3'><i>
+                    Computers, laptops and TVs fill our workspaces with the growth
+                    of digitalisation.
+                </i></p>
+                <p className='mt-3'><i>
+                    Car radios give off especially high EMF
+                    radiation.
+                </i></p>
+                <p className='mt-3'><i>
+                    TVs and charging ports are also increasingly being
+                    added to our public areas including buses.
+                </i></p>
+            </div>
+
+            <div className='mx-auto max-w-8xl px-2'>
+                <p className='text-center text-yellow-500 text-2xl mt-6'>
                     <i>
                         With so many radiation sources bombarding our body at
                         different frequencies all the time, it is difficult to

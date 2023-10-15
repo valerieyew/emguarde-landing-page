@@ -2,7 +2,7 @@ import Image from 'next/image';
 const Coverage = () => {
     return (
         <div className='mx-auto max-w-7xl py-10'>
-            <div className='grid md:grid-cols-2 p-5  gap-10'>
+            <div className='grid md:grid-cols-2 p-5 gap-10'>
                 <div>
                     <Image
                         width={400}
@@ -27,6 +27,7 @@ const Coverage = () => {
                     </p>
                 </div>
             </div>
+            <hr className="mt-10 max-w-2xl mx-auto" />
         </div>
     );
 };
