@@ -26,13 +26,12 @@ const Testimonials = () => {
                                 <path d='M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z' />
                             </svg>
                             <p className='leading-relaxed mb-6'>
-                                I use headphones for long hours in my office to
-                                concentrate on my work. After I started bringing
-                                emGuarde to work, I realised I can concentrate
-                                for a longer amount of time in the office,
-                                sometimes even without my headphones. At the end
-                                of the day, I also no longer feel any dizziness
-                                which occur from time to time.
+                                I use headphones for long hours in my office.
+                                After I started bringing emGuarde to work, there
+                                was a distinctive increase in my energy level
+                                during and after work. Now I'm increasingly able
+                                to concentrate on my work even without my
+                                headphones.
                             </p>
                             <p>
                                 <b className='title-font text-gray-900 font-heading'>
@@ -53,7 +52,7 @@ const Testimonials = () => {
                                 <path d='M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z' />
                             </svg>
                             <p className='leading-relaxed mb-6'>
-                                Staying up late to study and being surrounded by
+                                testing Staying up late to study and being surrounded by
                                 gadgets was taking a toll on my well-being.
                                 Since emGuarde entered my life, I&apos;ve
                                 noticed a significant improvement in my focus

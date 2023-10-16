@@ -52,7 +52,7 @@ const ImpactsOfRadiation = () => {
                     <p>
                         We are currently all facing{' '}
                         <b className='text-yellow-500'>
-                            electrosmog (a form of electromagnetic radiation)
+                            electrosmog (a form of electromagnetic pollution)
                         </b>
                         .
                     </p>
