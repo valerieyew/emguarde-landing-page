@@ -15,7 +15,8 @@ const HealthBenefits = () => {
                     </h3>
                     <p className='text-center mt-5'>
                         With emGuarde, the benefits are subtle to feel, yet
-                        transformative to your health. Here are what you can look forward to.
+                        transformative to your health. Here are what you can
+                        look forward to.
                     </p>
                 </div>
 
@@ -24,12 +25,12 @@ const HealthBenefits = () => {
                         <li className='px-10 py-7 bg-yellow-50 rounded-md'>
                             <p className='font-semibold text-gray-500'>01</p>
                             <h3 className='font-heading font-semibold text-lg'>
-                              Less Fatigue and Longer Attention Span
+                                Less Fatigue and Longer Attention Span
                             </h3>
                             <p className='text-gray-600'>
-                                Prevent disturbances to your body functions by
-                                the high amount of radiation surrounding us all
-                                the time.
+                                Always be at your best with reduced disturbances
+                                to your body functions by the high amount of
+                                radiation surrounding us all the time.
                             </p>
                         </li>
                         <li className='px-10 py-7 bg-yellow-50 rounded-md'>

@@ -26,16 +26,26 @@ const Testimonials = () => {
                                 <path d='M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z' />
                             </svg>
                             <p className='leading-relaxed mb-6'>
-                                After I started bringing emGuarde to work, there
-                                was a distinctive increase in my overall energy
-                                level during and after work. Now I'm
-                                increasingly able to concentrate on my work for
-                                longer hours, sometimes without my headphones
-                                too.
+                                As someone who is mindful of her health, I have
+                                been worrying about the amount of electrical
+                                devices in my office. My office is beside the
+                                server equipment room and there are over 20
+                                laptops and monitors around me. Due to the noisy
+                                environment, I also have my earbuds on for long
+                                hours working on my laptop.
+                            </p>
+                            <p className='leading-relaxed mb-6'>
+                                I decided to bring the emGuarde with me, no
+                                matter where I go. To my surprise, I was able to
+                                concentrate better and I did not have any
+                                dizziness or headache with my earbuds on for
+                                long hours. The most important of all, I feel
+                                less tired after work every day and am able to
+                                go out for my regular exercises and meetups.
                             </p>
                             <p>
                                 <b className='title-font text-gray-900 font-heading'>
-                                    Software Developer in Singapore
+                                    Software Developer in Malaysia
                                 </b>
                             </p>
                         </div>
@@ -52,25 +62,34 @@ const Testimonials = () => {
                                 <path d='M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z' />
                             </svg>
                             <p className='leading-relaxed mb-6'>
-                                Staying up late to study and being surrounded by
-                                gadgets was taking a toll on my well-being.
-                                Since emGuarde entered my life, I&apos;ve
-                                noticed a significant improvement in my focus
-                                and energy levels. My study sessions are now
-                                more productive, and I find myself being able to
-                                fall asleep earlier at night and wake up feeling
-                                refreshed!
+                                I am working from home and my work station is
+                                very near to the wifi router. When I spent long
+                                hours on my laptop everyday, I would experience
+                                regular migraine, tired eyes, and fatigue.
                             </p>
-
+                            <p className='leading-relaxed mb-6'>
+                                Lately, I have some sleeping issue. I usually
+                                sleep after 12 midnight, but somehow, still wake
+                                up at around 6:30am, and not able to go back to
+                                sleep again. This had made me feel very tired in
+                                the late afternoons and led to poor
+                                concentration on my work.
+                            </p>
+                            <p className='leading-relaxed mb-6'>
+                                Shortly after I started using emGuarde, for
+                                about two weeks, all these symptoms have reduced
+                                significantly and I have better sleep and wake
+                                up after 8am.
+                            </p>
                             <p>
                                 <b className='title-font text-gray-900 font-heading'>
-                                    College Student in London
+                                    Working Mother in Singapore
                                 </b>
                             </p>
                         </div>
                     </div>
 
-                    <div className='p-4 md:w-1/2 w-full'>
+                    {/* <div className='p-4 md:w-1/2 w-full'>
                         <div className='h-full bg-gray-100 p-8 rounded'>
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
@@ -133,7 +152,7 @@ const Testimonials = () => {
                                 </b>
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

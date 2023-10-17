@@ -30,7 +30,7 @@ const Specification = () => {
         <h3 className="text-center lg:text-4xl text-2xl font-heading font-semibold">
           Specification
         </h3>
-        <p className="text-center   mt-5">
+        <p className="text-center mt-5">
           Following are the Specification of EmGuarde Product.
         </p>
       </div>
