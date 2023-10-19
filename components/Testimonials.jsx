@@ -5,7 +5,7 @@ const Testimonials = () => {
             className='text-gray-600 bg-gray-50 body-font'
         >
             <div className='container px-5 py-16 mx-auto'>
-                <h1 className='lg:text-3xl text-2xl font-semibold font-heading text-gray-900 text-center'>
+                <h1 className='md:text-4xl text-3xl font-semibold font-heading text-gray-900 text-center'>
                     Our Testimonials
                 </h1>
                 <p className='text-center mt-5 mb-12 max-w-5xl mx-auto'>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HealthBenefits = () => {
     return (
         <section
@@ -10,9 +12,9 @@ const HealthBenefits = () => {
         >
             <div className='bg-black/20 py-14'>
                 <div className='mx-auto max-w-5xl px-2 text-white drop-shadow-lg'>
-                    <h3 className='text-center lg:text-3xl text-2xl font-heading font-semibold'>
-                        Health benefits of an emGuarde Radiation Harmoniser
-                    </h3>
+                    <h1 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
+                        Health Benefits of emGuarde
+                    </h1>
                     <p className='text-center mt-5'>
                         With emGuarde, the benefits are subtle to feel, yet
                         transformative to your health. Here are what you can
@@ -65,6 +67,13 @@ const HealthBenefits = () => {
                         </li>
                     </ul>
                 </div>
+
+                <Link
+                    href={"#buy-section"}
+                    className="text-center font-semibold bg-yellow-500 mt-8 mx-auto px-7 py-3 rounded-md block text-md w-48"
+                    >
+                        BUY NOW
+                </Link>
             </div>
         </section>
     );

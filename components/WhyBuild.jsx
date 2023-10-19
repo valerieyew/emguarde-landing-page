@@ -31,7 +31,7 @@ const WhyBuilt = () => {
     return (
         <section className='py-20 px-5 bg-black'>
             <div className='text-white mx-auto max-w-8xl mb-10'>
-                <h1 className='text-center md:text-4xl text-3xl text font-heading font-semibold'>
+                <h1 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
                     emGuarde Neutralises EMF and RF Radiation Emitted By Your
                     Devices
                 </h1>

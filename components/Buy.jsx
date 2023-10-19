@@ -1,5 +1,5 @@
 import { PiAtBold, PiPhoneBold, PiWhatsappLogoBold } from 'react-icons/pi';
-import { MdOutlineMail } from 'react-icons/md'
+import { MdOutlineMail } from 'react-icons/md';
 import { BiLogoFacebook } from 'react-icons/bi';
 import { BsInstagram } from 'react-icons/bs';
 
@@ -13,11 +13,11 @@ const Buy = () => {
                     <h3 className='text-md mb-2  font-heading font-semibold uppercase'>
                         Contact us
                     </h3>
-                    <h3 className='md:text-5xl text-3xl text-yellow-500 font-heading font-semibold'>
-                        Get Your EmGuarde
-                    </h3>
+                    <h1 className='md:text-5xl text-3xl text-yellow-500 font-heading font-semibold'>
+                        Get Your emGuarde
+                    </h1>
                     <p className='   mt-5'>
-                        Embrace EmGuarde today, because investing in your health
+                        Embrace emGuarde today, because investing in your health
                         is priceless. Join the ranks of those who have
                         discovered the secret to radiant living. Your journey to
                         vitality begins here.
@@ -27,7 +27,7 @@ const Buy = () => {
                 <div className='grid md:grid-cols-2 gap-2'>
                     <Button
                         Href={
-                            'https://api.whatsapp.com/send?phone=+6587517713&text=hey'
+                            'https://api.whatsapp.com/send?phone=+6587517713&text=Hello,%20I%20would%20like%20to%20arrange%20for%20a%20live%20demo%20on%20emGuarde.'
                         }
                         Title={'WhatsApp +65 8751 7713'}
                         Icon={PiWhatsappLogoBold}

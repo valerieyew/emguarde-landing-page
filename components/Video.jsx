@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Video = () => {
   return (
-    <div className="mx-auto max-w-7xl py-10">
+    <div className="mx-auto max-w-7xl py-10 px-5">
       <div className="grid md:grid-cols-2 pb-5 gap-10">
         <div className="flex flex-col justify-center">
           <p className="uppercase tracking-wide font-medium font-heading mb-3 text-gray-500">

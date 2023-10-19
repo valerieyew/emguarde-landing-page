@@ -26,13 +26,13 @@ const electromagneticHarmonizers = [
 const Specification = () => {
   return (
     <section id="specification" className="py-16 bg-black">
-      <div className="text-white mx-auto max-w-5xl px-2">
-        <h3 className="text-center lg:text-4xl text-2xl font-heading font-semibold">
-          Specification
-        </h3>
-        <p className="text-center mt-5">
+      <div className="text-white mx-auto max-w-5xl px-5">
+        <h1 className="text-center md:text-4xl text-3xl font-heading font-semibold">
+          emGuarde Specifications
+        </h1>
+        {/* <p className="text-center mt-5">
           Following are the Specification of EmGuarde Product.
-        </p>
+        </p> */}
       </div>
 
       <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5">
