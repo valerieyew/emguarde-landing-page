@@ -70,7 +70,7 @@ const HealthBenefits = () => {
 
                 <Link
                     href={"#buy-section"}
-                    className="text-center font-semibold bg-yellow-500 mt-8 mx-auto px-7 py-3 rounded-md block text-md w-48"
+                    className="text-center font-semibold bg-yellow-500 mt-8 mx-auto px-7 py-3 rounded-md block text-lg w-48"
                     >
                         BUY NOW
                 </Link>

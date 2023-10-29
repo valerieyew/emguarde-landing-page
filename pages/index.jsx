@@ -25,7 +25,6 @@ export default function Home() {
         <Specification />
         <Coverage />
         <Video />
-        <JoinOurEvent />
         <Buy />
         <Footer />
       </main>
