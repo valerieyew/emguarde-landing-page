@@ -7,18 +7,21 @@ const Hero = () => {
       {/* desktop */}
       <video
         // playsInline
-        muted
+        loop
         autoPlay
+        muted
         src="/hero.mp4"
+        controls = ''
         className="absolute w-full h-full object-cover z-0 object-center hidden md:block"
       />
       {/* mobile  */}
       <video
         // playsInline
         loop
-        muted
         autoPlay
+        muted
         src="/hero-2.mp4"
+        controls = ''
         className="absolute w-full h-full object-cover z-0 object-center md:hidden block"
       />
 
