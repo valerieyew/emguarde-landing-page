@@ -20,12 +20,12 @@ export default function Home() {
         <Hero />
         <WhyBuilt />
         <ImpactsOfRadiation />
-        <HealthBenefits />
-        <Testimonials />
         <Specification />
         <Coverage />
         <Video />
-        {/* <JoinOurEvent /> */}
+        <HealthBenefits />
+        <Testimonials />
+        <JoinOurEvent />
         <Buy />
         <Footer />
       </main>

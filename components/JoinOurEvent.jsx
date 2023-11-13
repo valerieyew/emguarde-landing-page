@@ -7,7 +7,7 @@ const JoinOurEvent = () => {
             <div className='text-white mx-auto max-w-7xl  px-2 font-heading grid gap-1 '>
                 <p className='uppercase tracking-wider'>Event details</p>
                 <h1 className='md:text-4xl text-3xl font-semibold py-5 text-yellow-500 border-l pl-5 bg-white/10 '>
-                    Join Our Event on the 28th of October!
+                    Join Our Event on the 9th of December!
                 </h1>
                 <p className='md:text-lg px-2 mt-2'>
                     We will be sharing everything you need to know about
@@ -19,7 +19,7 @@ const JoinOurEvent = () => {
                     eliminating the radiation lurking all around us.
                 </p>
                 <p className='md:text-lg px-2 mt-4 text-center'>
-                    <b>Time: 11am to 3pm</b>
+                    <b>Time: 11am to 3pm, Saturday</b>
                 </p>
                 <p className='md:text-lg px-2 text-center'>
                     <b>Venue: Peninsula Plaza</b>
@@ -30,7 +30,7 @@ const JoinOurEvent = () => {
                 
                 <Link
                     href={
-                        'https://api.whatsapp.com/send?phone=+6587517713&text=Hello,%20I%20would%20like%20to%20register%20for%20the%20emGuarde%20event%20on%2020th%20Oct.'
+                        'https://api.whatsapp.com/send?phone=+6587517713&text=Hello,%20I%20would%20like%20to%20register%20for%20the%20emGuarde%20event%20on%20the%209th%20of%20Dec.'
                     }
                     className='text-center text-black flex gap-5 font-semibold bg-white mt-3 mx-auto px-7 py-3 rounded-md text-lg w-72'
                 >
