@@ -1,8 +1,15 @@
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Header = () => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
-        <nav class='bg-black z-10'>
+        <nav class='bg-black'>
             <div class='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
                 <Link
                     href='https://www.emguardesingapore.com/'
@@ -18,11 +25,9 @@ const Header = () => {
                     </span>
                 </Link>
                 <button
-                    data-collapse-toggle='navbar-default'
                     type='button'
-                    class='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden'
-                    aria-controls='navbar-default'
-                    aria-expanded='false'
+                    class='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg lg:hidden'
+                    onClick={toggleMobileMenu}
                 >
                     <span class='sr-only'>Open main menu</span>
                     <svg
@@ -41,15 +46,70 @@ const Header = () => {
                         />
                     </svg>
                 </button>
+                {isMobileMenuOpen && 
+                  <div
+                      class='w-full lg:hidden z-10'
+                  >
+                      <ul class='font-medium text-center'>
+                          <li>
+                              <Link
+                                  href='#health-benefits'
+                                  class='block py-2 px-3 text-white hover:text-yellow-500'
+                                  aria-current='page'
+                                  onClick={toggleMobileMenu}
+                              >
+                                  Health Benefits
+                              </Link>
+                          </li>
+                          <li>
+                              <Link
+                                  href='#testimonials'
+                                  class='block py-2 px-3 text-white hover:text-yellow-500'
+                                  onClick={toggleMobileMenu}
+                              >
+                                  Testimonials
+                              </Link>
+                          </li>
+                          <li>
+                              <Link
+                                  href='#specification'
+                                  class='block py-2 px-3 text-white hover:text-yellow-500'
+                                  onClick={toggleMobileMenu}
+                              >
+                                  Specifications
+                              </Link>
+                          </li>
+                          {/* <li>
+                              <Link
+                                  href='#events'
+                                  class='block py-2 px-3 text-white hover:text-yellow-500'
+                                  onClick={toggleMobileMenu}
+                              >
+                                  Events
+                              </Link>
+                          </li> */}
+                          <li>
+                              <Link
+                                  href='#buy-section'
+                                  class='block py-2 px-3 text-white hover:text-yellow-500'
+                                  onClick={toggleMobileMenu}
+                              >
+                                  Buy Now
+                              </Link>
+                          </li>
+                      </ul>
+                  </div>
+                }
+
+                {/* Navbar for large screens and above */}
                 <div
-                    class='hidden w-full md:block md:w-auto'
-                    id='navbar-default'
+                    class='hidden w-full lg:block lg:w-auto'
                 >
-                    <ul class='font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0'>
+                    <ul class='font-medium flex flex-col lg:p-0 mt-4 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0'>
                         <li>
                             <Link
                                 href='#health-benefits'
-                                class='block py-2 px-3 text-white rounded md:hover:text-yellow-500 md:p-0'
+                                class='block text-white rounded lg:hover:text-yellow-500 lg:p-0'
                                 aria-current='page'
                             >
                                 Health Benefits
@@ -58,7 +118,7 @@ const Header = () => {
                         <li>
                             <Link
                                 href='#testimonials'
-                                class='block py-2 px-3 text-white rounded md:hover:text-yellow-500 md:p-0'
+                                class='block text-white rounded lg:hover:text-yellow-500 lg:p-0'
                             >
                                 Testimonials
                             </Link>
@@ -66,7 +126,7 @@ const Header = () => {
                         <li>
                             <Link
                                 href='#specification'
-                                class='block py-2 px-3 text-white rounded md:hover:text-yellow-500 md:p-0'
+                                class='block text-white rounded lg:hover:text-yellow-500 lg:p-0'
                             >
                                 Specifications
                             </Link>
@@ -74,7 +134,7 @@ const Header = () => {
                         {/* <li>
                             <Link
                                 href='#events'
-                                class='block py-2 px-3 text-white rounded md:hover:text-yellow-500 md:p-0'
+                                class='block text-white rounded lg:hover:text-yellow-500 lg:p-0'
                             >
                                 Events
                             </Link>
@@ -82,7 +142,7 @@ const Header = () => {
                         <li>
                             <Link
                                 href='#buy-section'
-                                class='block py-2 px-3 text-white rounded md:hover:text-yellow-500 md:p-0'
+                                class='block text-white rounded lg:hover:text-yellow-500 lg:p-0'
                             >
                                 Buy Now
                             </Link>
