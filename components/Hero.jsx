@@ -12,10 +12,10 @@ const Hero = () => {
         muted
         src="/hero.mp4"
         controls = ''
-        className="absolute w-full h-full object-cover z-0 object-center hidden md:block"
+        className="absolute w-full h-full object-cover z-0 object-center block"
       />
       {/* mobile  */}
-      <video
+      {/* <video
         // playsInline
         loop
         autoPlay
@@ -23,7 +23,7 @@ const Hero = () => {
         src="/hero-2.mp4"
         controls = ''
         className="absolute w-full h-full object-cover z-0 object-center md:hidden block"
-      />
+      /> */}
 
       <section className="px-5 py-12 relative">
         <div className="mx-auto max-w-2xl grid gap-10 py-5">
