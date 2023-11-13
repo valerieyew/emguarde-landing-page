@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative md:h-[800px] h-[80vh] flex items-center justify-center">
       {/* desktop */}
       <video
-        playsInline
+        // playsInline
         muted
         autoPlay
         src="/hero.mp4"
@@ -14,7 +14,7 @@ const Hero = () => {
       />
       {/* mobile  */}
       <video
-        playsInline
+        // playsInline
         loop
         muted
         autoPlay
