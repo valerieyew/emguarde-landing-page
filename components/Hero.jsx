@@ -10,7 +10,7 @@ const Hero = () => {
         loop
         autoPlay
         muted
-        src="/hero.mp4"
+        src="/Hero.mov"
         controls = ''
         className="absolute w-full h-full object-cover z-0 object-center block"
       />
