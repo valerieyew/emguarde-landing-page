@@ -1,0 +1,5 @@
+To run the repo locally:
+- sudo npm install --global yarn
+- npm i next
+- Make sure there isn't an open tab in the browser for localhost:3000
+- npm run dev
