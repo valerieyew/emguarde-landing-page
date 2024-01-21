@@ -29,14 +29,14 @@ const Buy = () => {
                         Href={
                             'https://api.whatsapp.com/send?phone=+6587517713&text=Hello,%20I%20would%20like%20to%20arrange%20for%20a%20live%20demo%20on%20emGuarde.'
                         }
-                        Title={'WhatsApp +65 8751 7713'}
+                        Title={'WhatsApp Us'}
                         Icon={PiWhatsappLogoBold}
                     />
 
                     <Button
                         Href={'tel:+6587517713'}
                         Icon={PiPhoneBold}
-                        Title={'Call +65 8751 7713'}
+                        Title={'Call Us'}
                     />
 
                     {/* <Button

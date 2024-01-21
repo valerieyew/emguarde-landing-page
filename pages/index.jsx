@@ -25,7 +25,7 @@ export default function Home() {
         <Video />
         <HealthBenefits />
         <Testimonials />
-        <JoinOurEvent />
+        {/* <JoinOurEvent /> */}
         <Buy />
         <Footer />
       </main>
