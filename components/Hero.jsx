@@ -3,7 +3,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative md:h-[800px] h-[80vh] flex items-center justify-center" style={{backgroundImage: "/Hero.png"}}>
+    <div className='relative md:h-[800px] h-[80vh] flex items-center justify-center bg-cover bg-center'
+            style={{
+              backgroundImage:
+                  "url('/Hero.png')",
+              backgroundSize: '100% 100%',
+          }}
+        >
       {/* desktop */}
       <video
         // playsInline
