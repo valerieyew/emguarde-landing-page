@@ -21,7 +21,7 @@ const Header = () => {
                         alt='Kangen Wiz Global Logo'
                     />
                     <span class='self-center font-semibold text-white'>
-                        Kangen Wiz Global (emGuarde)
+                        emGuarde Singapore
                     </span>
                 </Link>
                 <button
