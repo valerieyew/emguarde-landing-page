@@ -42,6 +42,8 @@ const SEO = () => {
             />
             <meta property='og:type' content='website' />
             <meta property='og:site_name' content='EmGuarde' />
+
+            <link rel="canonical" href="https://emguardesingapore.com/" />
         </Head>
     );
 };
