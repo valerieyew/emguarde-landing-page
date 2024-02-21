@@ -22,26 +22,27 @@ const SEO = () => {
                 radiation waves, radiofrequency radiation, rf radiation'
             />
             <title>
-                EmGuarde Singapore: Protect You from Electromagnetic Radiation
+                EmGuarde Singapore: Protect You from EMF Radiation (Kangen Wiz Global)
             </title>
 
             <meta
                 property='og:title'
-                content='EmGuarde: Shielding Against Electromagnetic Radiation'
+                content='EmGuarde Singapore: Our Protection Against EMF Radiation'
             />
             <meta
                 property='og:description'
-                content='Explore EmGuarde, your ultimate defense against the hidden dangers of 
-                electromagnetic radiation. Discover its benefits, testimonials, and how it can 
-                improve your well-being.'
+                content='EmGuarde Radiation Harmoniser shields you from Radiofrequency (RF) 
+                          radiation from our smartphones and other electronic devices. 
+                          It improves microcirculatory blood flow, which are often
+                          negatively affected by RF radiation.'
             />
-            <meta property='og:image' content='/product.png' />
+            <meta property='og:image' content='/emGuarde-With-Box-Beside.png' />
             <meta
                 property='og:url'
-                content='https://example.com/emguarde-page'
+                content='https://emguardesingapore.com/'
             />
             <meta property='og:type' content='website' />
-            <meta property='og:site_name' content='EmGuarde' />
+            <meta property='og:site_name' content='EmGuarde Singapore' />
 
             <link rel="canonical" href="https://emguardesingapore.com/" />
         </Head>
