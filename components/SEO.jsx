@@ -22,7 +22,7 @@ const SEO = () => {
                 radiation waves, radiofrequency radiation, rf radiation'
             />
             <title>
-                EmGuarde Singapore: Protect You from EMF Radiation (Kangen Wiz Global)
+                EmGuarde Singapore: Protect You from EMF Radiation
             </title>
 
             <meta
