@@ -1,5 +1,5 @@
 import Image from 'next/image';
-const Coverage = () => {
+const CoverageBanner = () => {
     return (
         <div className='mx-auto max-w-7xl py-10'>
             <div className='grid md:grid-cols-2 p-5 gap-10'>
@@ -32,4 +32,4 @@ const Coverage = () => {
     );
 };
 
-export default Coverage;
+export default CoverageBanner;

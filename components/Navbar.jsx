@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-const Header = () => {
+const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
@@ -153,4 +153,4 @@ const Header = () => {
         </nav>
     );
 };
-export default Header;
+export default Navbar;

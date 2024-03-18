@@ -5,7 +5,7 @@ import { BsInstagram } from 'react-icons/bs';
 
 import Link from 'next/link';
 
-const Buy = () => {
+const CtaBanner = () => {
     return (
         <section id='buy-section' className='py-20 bg-black'>
             <div className='mx-auto max-w-7xl rounded-md grid lg:grid-cols-2 gap-10 px-5'>
@@ -62,7 +62,7 @@ const Buy = () => {
     );
 };
 
-export default Buy;
+export default CtaBanner;
 
 const Button = ({ Icon, Title, Href }) => {
     return (

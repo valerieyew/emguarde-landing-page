@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const HealthBenefits = () => {
+const HealthBenefitsBanner = () => {
     return (
         <section
             id='health-benefits'
@@ -79,4 +79,4 @@ const HealthBenefits = () => {
     );
 };
 
-export default HealthBenefits;
+export default HealthBenefitsBanner;

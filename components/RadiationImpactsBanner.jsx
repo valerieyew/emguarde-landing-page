@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const ImpactsOfRadiation = () => {
+const RadiationImpactsBanner = () => {
     return (
         <section id='impacts-of-radiation' className='py-16 px-5 bg-gray-50'>
             <div className='mx-auto max-w-5xl px-1'>
@@ -98,4 +98,4 @@ const ImpactsOfRadiation = () => {
     );
 };
 
-export default ImpactsOfRadiation;
+export default RadiationImpactsBanner;

@@ -1,4 +1,4 @@
-const Testimonials = () => {
+const TestimonialsBanner = () => {
     return (
         <section
             id='testimonials'
@@ -159,4 +159,4 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+export default TestimonialsBanner;

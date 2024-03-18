@@ -23,7 +23,7 @@ const electromagneticHarmonizers = [
   },
 ];
 
-const Specification = () => {
+const SpecificationBanner = () => {
   return (
     <section id="specification" className="py-16 bg-black">
       <div className="text-white mx-auto max-w-5xl px-5">
@@ -62,4 +62,4 @@ const Specification = () => {
   );
 };
 
-export default Specification;
+export default SpecificationBanner;

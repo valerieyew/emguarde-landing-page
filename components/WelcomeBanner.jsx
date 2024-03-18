@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Hero = () => {
+const WelcomeBanner = () => {
   return (
     <div className='relative md:h-[800px] h-[80vh] flex items-center justify-center bg-cover bg-center'
             style={{
@@ -66,4 +66,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default WelcomeBanner;

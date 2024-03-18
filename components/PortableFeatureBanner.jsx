@@ -1,5 +1,5 @@
 import Image from "next/image";
-const Video = () => {
+const PortableFeatureBanner = () => {
   return (
     <div className="mx-auto max-w-7xl py-10 px-5">
       <div className="grid md:grid-cols-2 pb-5 gap-10">
@@ -30,4 +30,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default PortableFeatureBanner;

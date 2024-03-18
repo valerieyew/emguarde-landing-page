@@ -1,32 +1,32 @@
 import SEO from "../components/SEO";
-import Buy from "../components/Buy";
-import Hero from "../components/Hero";
-import Video from "../components/Video";
-import Header from "../components/Header";
+import CtaBanner from "../components/CtaBanner";
+import WelcomeBanner from "../components/WelcomeBanner";
+import PortableFeatureBanner from "../components/PortableFeatureBanner";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import WhyBuilt from "../components/WhyBuild";
-import Coverage from "../components/Coverage";
+import RadiationIntroBanner from "../components/RadiationIntroBanner";
+import CoverageBanner from "../components/CoverageBanner";
 import JoinOurEvent from "../components/JoinOurEvent";
-import Testimonials from "../components/Testimonials";
-import Specification from "../components/Specification";
-import HealthBenefits from "../components/HealthBenefits";
-import ImpactsOfRadiation from "../components/ImpactsOfRadiation";
+import TestimonialsBanner from "../components/TestimonialsBanner";
+import SpecificationBanner from "../components/SpecificationBanner";
+import HealthBenefitsBanner from "../components/HealthBenefitsBanner";
+import RadiationImpactsBanner from "../components/RadiationImpactsBanner";
 export default function Home() {
   return (
     <>
       <SEO />
       <main>
-        <Header />
-        <Hero />
-        <WhyBuilt />
-        <ImpactsOfRadiation />
-        <Specification />
-        <Coverage />
-        <Video />
-        <HealthBenefits />
-        <Testimonials />
+        <Navbar />
+        <WelcomeBanner />
+        <RadiationIntroBanner />
+        <RadiationImpactsBanner />
+        <SpecificationBanner />
+        <CoverageBanner />
+        <PortableFeatureBanner />
+        <HealthBenefitsBanner />
+        <TestimonialsBanner />
         {/* <JoinOurEvent /> */}
-        <Buy />
+        <CtaBanner />
         <Footer />
       </main>
     </>
