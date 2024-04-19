@@ -1,13 +1,13 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 const list = [
-    { name: "car", src: "/car.jpg" },
-    { name: "mobile", src: "/mobile.jpg" },
-    { name: "wireless controller", src: "/wirecontroller.jpg" },
-    { name: "oven", src: "/oven.png" },
-    { name: "fan", src: "/fan.jpg" },
-    { name: "massage chair", src: "/chair.jpg" },
-];
+    { name: 'car', src: '/car.jpg' },
+    { name: 'mobile', src: '/mobile.jpg' },
+    { name: 'wireless controller', src: '/wirecontroller.jpg' },
+    { name: 'oven', src: '/oven.png' },
+    { name: 'fan', src: '/fan.jpg' },
+    { name: 'massage chair', src: '/chair.jpg' },
+]
 
 const Element = ({ name, src }) => (
     <>
@@ -25,7 +25,7 @@ const Element = ({ name, src }) => (
             </p>
         </div>
     </>
-);
+)
 
 const WhyBuilt = () => {
     return (
@@ -39,7 +39,10 @@ const WhyBuilt = () => {
 
             <div className='text-white mx-auto max-w-5xl'>
                 <p className='text-center mt-5'>
-                    Any item that runs on electricity produces{" "}
+                    <span className='text-yellow-500'>
+                        Any item that runs on electricity
+                    </span>{' '}
+                    produces{' '}
                     <span className='text-yellow-500'>
                         Electromagnetic Fields (EMF) radiation
                     </span>
@@ -47,10 +50,10 @@ const WhyBuilt = () => {
                 </p>
                 <p className='text-center mt-5'>
                     Some devices, especially wireless ones such as mobile
-                    phones, earbuds and TV controller, produce high amounts of{" "}
+                    phones, earbuds and TV controller, produce high amounts of{' '}
                     <span className='text-yellow-500'>
                         Radiofrequency (RF) Radiation
-                    </span>{" "}
+                    </span>{' '}
                     as well.
                 </p>
             </div>
@@ -67,10 +70,10 @@ const WhyBuilt = () => {
                 <p className='text-center text-yellow-500 text-2xl mt-10'>
                     <i>
                         Some scientists have estimated that we are exposed daily
-                        to{" "}
+                        to{' '}
                         <b className='text-3xl'>
                             100 million times more EMF radiation
-                        </b>{" "}
+                        </b>{' '}
                         that our grandparents were.
                     </i>
                 </p>
@@ -81,17 +84,17 @@ const WhyBuilt = () => {
                     <i>Note:</i>
                 </p>
                 <p className='mt-2'>
-                    The above things are some of the{" "}
+                    The above things are some of the{' '}
                     <span className='text-yellow-500'>
                         highest EMF and RF radiation emitters
-                    </span>{" "}
+                    </span>{' '}
                     which we may use for long durations.
                 </p>
                 <p className='mt-2'>
                     The power densities of their emitted radiation are around
-                    1000 - 3000 µW/cm² (microwatts), which are in the{" "}
-                    <b className='text-orange-500'>orange</b> and{" "}
-                    <b className='text-red-500'>red</b> zones based on{" "}
+                    1000 - 3000 µW/cm² (microwatts), which are in the{' '}
+                    <b className='text-orange-500'>orange</b> and{' '}
+                    <b className='text-red-500'>red</b> zones based on{' '}
                     <span className='text-yellow-500'>
                         FCC exposure safety limit
                     </span>
@@ -99,7 +102,7 @@ const WhyBuilt = () => {
                 </p>
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default WhyBuilt;
+export default WhyBuilt
