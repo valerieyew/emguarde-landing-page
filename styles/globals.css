@@ -9,3 +9,11 @@
 html {
     scroll-behavior: smooth;
 }
+
+.note {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+}

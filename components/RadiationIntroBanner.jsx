@@ -42,11 +42,8 @@ const WhyBuilt = () => {
                     <span className='text-yellow-500'>
                         Any item that runs on electricity
                     </span>{' '}
-                    produces{' '}
-                    <span className='text-yellow-500'>
-                        Electromagnetic Fields (EMF) radiation
-                    </span>
-                    .
+                    produces Electromagnetic Fields{' '}
+                    <span className='text-yellow-500'>(EMF) radiation</span>.
                 </p>
                 <p className='text-center mt-5'>
                     Some devices, especially wireless ones such as mobile
@@ -80,17 +77,17 @@ const WhyBuilt = () => {
             </div>
 
             <div className='text-white mx-auto max-w-5xl mt-10'>
-                <p>
+                <p className="note">
                     <i>Note:</i>
                 </p>
-                <p className='mt-2'>
+                <p className='note mt-2'>
                     The above things are some of the{' '}
                     <span className='text-yellow-500'>
                         highest EMF and RF radiation emitters
                     </span>{' '}
                     which we may use for long durations.
                 </p>
-                <p className='mt-2'>
+                <p className='note mt-2'>
                     The power densities of their emitted radiation are around
                     1000 - 3000 µW/cm² (microwatts), which are in the{' '}
                     <b className='text-orange-500'>orange</b> and{' '}
