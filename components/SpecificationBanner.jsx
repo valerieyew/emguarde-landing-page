@@ -51,7 +51,7 @@ const SpecificationBanner = () => {
         <div className="flex items-center justify-center rounded-md px-5">
           <Image
             className="mx-auto rounded-md"
-            src={"/emGuarde dimensions.png"}
+            src={"/emGuarde dimensions.svg"}
             alt="/Dimensions of the emGuarde device"
             width={600}
             height={600}

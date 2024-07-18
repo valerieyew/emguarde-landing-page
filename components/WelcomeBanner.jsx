@@ -6,7 +6,7 @@ const WelcomeBanner = () => {
     <div className='relative md:h-[800px] h-[80vh] flex items-center justify-center bg-cover bg-center'
             style={{
               backgroundImage:
-                  "url('/Hero.png')",
+                  "url('/Hero.svg')",
               backgroundSize: '100% 100%',
           }}
         >
@@ -35,7 +35,7 @@ const WelcomeBanner = () => {
         <div className="mx-auto max-w-2xl grid gap-10 py-5">
           <Image
             className="mx-auto rounded-md"
-            src={"/emGuarde-With-Box-Beside.png"}
+            src={"/emGuarde-With-Box-Beside.svg"}
             alt="/"
             width={600}
             height={600}

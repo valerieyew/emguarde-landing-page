@@ -6,7 +6,7 @@ const HealthBenefitsBanner = () => {
             id='health-benefits'
             className='bg-cover bg-center md:bg-fixed'
             style={{
-                backgroundImage: "url('/pexels-vecislavas-popa-1571459.jpg')",
+                backgroundImage: "url('/Home background.svg')",
                 backgroundSize: '100% 100%',
             }}
         >

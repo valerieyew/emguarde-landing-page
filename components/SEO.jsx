@@ -36,7 +36,7 @@ const SEO = () => {
                           It improves microcirculatory blood flow, which are often
                           negatively affected by RF radiation.'
             />
-            <meta property='og:image' content='/emGuarde-With-Box-Beside.png' />
+            <meta property='og:image' content='/emGuarde-With-Box-Beside.svg' />
             <meta
                 property='og:url'
                 content='https://emguardesingapore.com/'

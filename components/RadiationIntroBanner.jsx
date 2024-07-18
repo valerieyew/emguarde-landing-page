@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 const list = [
-    { name: 'car', src: '/car.jpg' },
-    { name: 'mobile', src: '/mobile.jpg' },
-    { name: 'wireless controller', src: '/wirecontroller.jpg' },
-    { name: 'oven', src: '/oven.png' },
-    { name: 'fan', src: '/fan.jpg' },
-    { name: 'massage chair', src: '/chair.jpg' },
+    { name: 'car', src: '/car.svg' },
+    { name: 'mobile', src: '/mobile.svg' },
+    { name: 'wireless controller', src: '/wirecontroller.svg' },
+    { name: 'oven', src: '/oven.svg' },
+    { name: 'fan', src: '/fan.svg' },
+    { name: 'massage chair', src: '/chair.svg' },
 ]
 
 const Element = ({ name, src }) => (

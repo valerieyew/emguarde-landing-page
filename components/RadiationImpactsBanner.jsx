@@ -42,7 +42,7 @@ const RadiationImpactsBanner = () => {
                 <div className='flex items-center justify-center rounded-md'>
                     <Image
                         className='mx-auto rounded-md'
-                        src={'/Rouleau Formation.png'}
+                        src={'/Rouleau Formation.svg'}
                         alt='Reduced microcirculatory blood flow due to Rouleau Formation'
                         width={350}
                         height={350}
