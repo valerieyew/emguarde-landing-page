@@ -27,7 +27,7 @@ const SEO = () => {
 
             <meta
                 property='og:title'
-                content='EmGuarde Singapore: Our Protection Against EMF Radiation'
+                content='EmGuarde Singapore: Reduce EMF Radiation Around Us'
             />
             <meta
                 property='og:description'
@@ -45,6 +45,8 @@ const SEO = () => {
             <meta property='og:site_name' content='EmGuarde Singapore' />
 
             <link rel="canonical" href="https://emguardesingapore.com/" />
+
+            <link rel='icon' href="KWG%20Page%20Icon%20(jagged%20edges).png" type="image/png"></link>
         </Head>
     );
 };

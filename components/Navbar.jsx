@@ -16,12 +16,12 @@ const Navbar = () => {
                     class='flex items-center space-x-3 rtl:space-x-reverse'
                 >
                     <img
-                        src='/logo.png'
+                        src='/KWG%20Page%20Icon%20(jagged%20edges).png'
                         class='h-8'
                         alt='Kangen Wiz Global Logo'
                     />
                     <span class='self-center font-semibold text-white'>
-                        emGuarde Singapore
+                        Kangen Wiz Global
                     </span>
                 </Link>
                 <button

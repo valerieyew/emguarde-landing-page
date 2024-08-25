@@ -53,12 +53,12 @@ const WelcomeBanner = () => {
             >
               Buy Now
             </Link>
-            <Link
+            {/* <Link
               href={"#events"}
               className="font-semibold bg-white lg:px-10 px-20 md:py-2 py-3 rounded-md block md:text-md w-80 md:w-auto text-center"
             >
               Join Our Event
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
