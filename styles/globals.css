@@ -5,13 +5,41 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    /* --surface: #020617; */
+}
+
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    /* color: #e2e8f0; */
+    font-family: var(--font-body);
+}
+
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 .note {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-body);
     font-size: 1rem;
     font-weight: 400;
     color: #fff;

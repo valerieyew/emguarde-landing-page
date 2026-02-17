@@ -1,52 +1,45 @@
-import Head from "next/head";
-const SEO = () => {
+import Head from 'next/head';
+
+const SEO = ({
+    title = 'EmGuarde Singapore | EMF Radiation Reducer',
+    description = 'EmGuarde Radiation Harmoniser shields you from Radiofrequency (RF) radiation from our smartphones and other electronic devices. It improves microcirculatory blood flow, which are often negatively affected by RF radiation.',
+    canonicalUrl = 'https://emguardesingapore.com/',
+    ogImage = '/emGuarde-With-Box-Beside.svg',
+    jsonLd,
+}) => {
     return (
         <Head>
             <meta charSet='UTF-8' />
-            <meta
-                name='viewport'
-                content='width=device-width, initial-scale=1.0'
-            />
-            <meta
-                name='description'
-                content='EmGuarde Radiation Harmoniser shields you from Radiofrequency (RF) 
-                          radiation from our smartphones and other electronic devices. 
-                          It improves microcirculatory blood flow, which are often
-                          negatively affected by RF radiation.'
-            />
-            <meta
-                name='keywords'
-                content='emGuarde, Kangen, radiation harmoniser, electromagnetic radiation, 
-                electromagnetic frequency, emf, emr, Enagic Singapore, Kangen Singapore, 
-                emGuarde Singapore, eliminate radiation, environment harmoniser, em waves, 
-                radiation waves, radiofrequency radiation, rf radiation'
-            />
-            <title>
-                EmGuarde Singapore: Protect You from EMF Radiation
-            </title>
+            <meta name='viewport' content='width=device-width, initial-scale=1' />
+            <title>{title}</title>
 
-            <meta
-                property='og:title'
-                content='EmGuarde Singapore: Reduce EMF Radiation Around Us'
-            />
-            <meta
-                property='og:description'
-                content='EmGuarde Radiation Harmoniser shields you from Radiofrequency (RF) 
-                          radiation from our smartphones and other electronic devices. 
-                          It improves microcirculatory blood flow, which are often
-                          negatively affected by RF radiation.'
-            />
-            <meta property='og:image' content='/emGuarde-With-Box-Beside.svg' />
-            <meta
-                property='og:url'
-                content='https://emguardesingapore.com/'
-            />
+            <meta name='description' content={description} />
+            <meta name='robots' content='index,follow,max-image-preview:large' />
+            <meta name='theme-color' content='#020617' />
+
             <meta property='og:type' content='website' />
             <meta property='og:site_name' content='EmGuarde Singapore' />
+            <meta property='og:title' content={title} />
+            <meta property='og:description' content={description} />
+            <meta property='og:url' content={canonicalUrl} />
+            <meta property='og:image' content={ogImage} />
 
-            <link rel="canonical" href="https://emguardesingapore.com/" />
+            <meta name='twitter:card' content='summary_large_image' />
+            <meta name='twitter:title' content={title} />
+            <meta name='twitter:description' content={description} />
+            <meta name='twitter:image' content={ogImage} />
 
-            <link rel='icon' href="KWG%20Page%20Icon%20(jagged%20edges).png" type="image/png"></link>
+            <link rel='canonical' href={canonicalUrl} />
+            <link rel='icon' href='KWG%20Page%20Icon%20(jagged%20edges).png' />
+
+            {jsonLd ? (
+                <script
+                    type='application/ld+json'
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(jsonLd),
+                    }}
+                />
+            ) : null}
         </Head>
     );
 };
