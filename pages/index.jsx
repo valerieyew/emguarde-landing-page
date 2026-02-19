@@ -20,9 +20,9 @@ export default function Home() {
             <SEO />
             <main>
                 <Navbar />
-                {/* PROBLEM: Establish the threat and urgency */}
+
                 <WelcomeBanner />
-                {/* FEATURES: Additional product benefits */}
+
                 <DailyExposureBanner />
 
                 <SurroundingRadiationBanner />
