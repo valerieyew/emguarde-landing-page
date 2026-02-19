@@ -1,3 +1,48 @@
+const radiationSources = [
+    {
+        icon: '🏠',
+        title: 'Homes & Offices',
+        items: [
+            'WiFi routers',
+            'Mobile phones',
+            'Tablets and Laptops',
+            'Televisions',
+            'LED lights',
+            'Smart devices',
+        ],
+    },
+    {
+        icon: '🚗',
+        title: 'Transport & Travel',
+        items: [
+            'MRT electrical systems',
+            'Electric vehicle systems',
+            'Car radio',
+            'Bluetooth connections',
+            'Onboard WiFi',
+            'Mobile phones',
+        ],
+    },
+    {
+        icon: '🏢',
+        title: 'Public Spaces',
+        items: [
+            'Smart lighting',
+            'LED billboards',
+            'Public WiFi',
+            'Mobile towers',
+            'Urban sensors',
+            'Annoucement systems',
+        ],
+    },
+];
+
+const cardClassName =
+    'rounded-xl border border-red-400/40 bg-gradient-to-br from-red-600/20 to-red-900/20 p-6 text-left shadow-lg';
+
+const titleClassName = 'text-xl md:text-2xl font-semibold text-red-200';
+const listClassName = 'space-y-2 text-base md:text-lg text-gray-100 font-medium';
+
 const SurroundingRadiationBanner = () => {
     return (
         <section className='py-16 bg-gradient-to-b from-black via-red-950/30 to-black px-5'>
@@ -12,47 +57,19 @@ const SurroundingRadiationBanner = () => {
                 </div>
 
                 <div className='mt-10 grid gap-6 md:grid-cols-3'>
-                    <article className='rounded-xl border border-red-400/40 bg-gradient-to-br from-red-600/20 to-red-900/20 p-6 text-left shadow-lg'>
-                        <div className='text-3xl mb-3'>🏠</div>
-                        <div className='space-y-3'>
-                            <h4 className='text-xl md:text-2xl font-semibold text-red-300'>
-                                Home & Offices{' '}
-                            </h4>
-                            <ul className='space-y-2 text-base md:text-lg text-gray-200 font-medium'>
-                                <li>✗ WiFi routers</li>
-                                <li>✗ Microwaves</li>
-                                <li>✗ Smart appliances</li>
-                                <li>✗ Laptops</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article className='rounded-xl border border-red-400/40 bg-gradient-to-br from-red-600/20 to-red-900/20 p-6 text-left shadow-lg'>
-                        <div className='text-3xl mb-3'>🚗</div>
-                        <div className='space-y-3'>
-                            <h4 className='text-xl md:text-2xl font-semibold text-red-300'>
-                                Vehicles & Transit
-                            </h4>
-                            <ul className='space-y-2 text-base md:text-lg text-gray-200 font-medium'>
-                                <li>✗ Smartphones</li>
-                                <li>✗ Public WiFi</li>
-                                <li>✗ Vehicle systems</li>
-                                <li>✗ Public transit</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article className='rounded-xl border border-red-400/40 bg-gradient-to-br from-red-600/20 to-red-900/20 p-6 text-left shadow-lg'>
-                        <div className='text-3xl mb-3'>🏢</div>
-
-                        <div className='space-y-3'>
-                            <h4 className='text-xl md:text-2xl font-semibold text-red-300'>Public Spaces</h4>
-                            <ul className='space-y-2 text-base md:text-lg text-gray-200 font-medium'>
-                                <li>✗ Computer screens</li>
-                                <li>✗ Office WiFi</li>
-                                <li>✗ Printers</li>
-                                <li>✗ Lighting systems</li>
-                            </ul>
-                        </div>
-                    </article>
+                    {radiationSources.map(({ icon, title, items }) => (
+                        <article key={title} className={cardClassName}>
+                            <div className='text-3xl mb-3'>{icon}</div>
+                            <div className='space-y-3'>
+                                <h4 className={titleClassName}>{title}</h4>
+                                <ul className={listClassName}>
+                                    {items.map((item) => (
+                                        <li key={item}>✗ {item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </article>
+                    ))}
                 </div>
 
                 <div className='mt-10 text-center'>
