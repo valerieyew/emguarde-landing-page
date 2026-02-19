@@ -3,97 +3,126 @@ import Link from 'next/link';
 
 const RadiationImpactsBanner = () => {
     return (
-        <section id='impacts-of-radiation' className='py-16 px-5 bg-gray-50'>
-            <div className='mx-auto max-w-5xl px-1'>
-                <h3 className='text-center md:text-4xl text-3xl font-heading font-semibold'>
-                    How Does Radiation Harm You?
-                </h3>
-            </div>
-
-            <div className='mt-10 max-w-7xl mx-auto mt-8 text-center text-lg'>
-                <p className='max-w-7xl mt-3'>
-                    <i>
-                        Computers, laptops and TVs fill our workspaces with the
-                        growth of digitalisation.
-                    </i>
-                </p>
-                <p className='mt-3'>
-                    <i>Car radios give off especially high EMF radiation.</i>
-                </p>
-                <p className='mt-3'>
-                    <i>
-                        TVs and charging ports are also increasingly being added
-                        to our public areas including buses.
-                    </i>
-                </p>
-            </div>
-
-            <div className='mx-auto max-w-8xl px-2'>
-                <p className='text-center text-yellow-500 text-2xl mt-6'>
-                    <i>
-                        With so many radiation sources bombarding our body at
-                        different frequencies all the time, it is difficult to
-                        avoid the toxic effects of radiation without emGuarde.
-                    </i>
-                </p>
-            </div>
-
-            <div className='grid lg:grid-cols-2 max-w-7xl mx-auto mt-8 gap-2'>
-                <div className='flex items-center justify-center rounded-md'>
-                    <Image
-                        className='mx-auto rounded-md'
-                        src={'/Rouleau Formation.svg'}
-                        alt='Reduced microcirculatory blood flow due to Rouleau Formation'
-                        width={350}
-                        height={350}
-                    />
-                </div>
-                <div className='px-2 text-left'>
-                    <p>
-                        We are currently all facing{' '}
-                        <b className='text-yellow-500'>
-                            electrosmog (a form of electromagnetic pollution)
-                        </b>
-                        .
+        <section
+            id='impacts-of-radiation'
+            aria-labelledby='radiation-impacts-title'
+            className='bg-gray-50 px-5 py-16'
+        >
+            <div className='mx-auto max-w-7xl'>
+                <header className='mx-auto max-w-4xl text-center'>
+                    <p className='text-sm font-semibold uppercase tracking-[0.18em] text-yellow-600'>
+                        EMF awareness
                     </p>
-                    <p className='mt-5'>
-                        More people have been reporting negative reactions to
-                        devices that emit EMF radiation over the years. Notable ones include
+                    <h2
+                        id='radiation-impacts-title'
+                        className='mt-3 text-3xl font-heading font-semibold text-gray-900 md:text-5xl'
+                    >
+                        How electromagnetic radiation may affect your daily
+                        health
+                    </h2>
+                    <p className='mx-auto mt-5 max-w-3xl text-base leading-relaxed text-gray-700 md:text-lg'>
+                        Modern life includes constant EMF exposure from phones,
+                        Wi-Fi routers, computers, televisions, charging stations
+                        and public transport systems. Over time, that exposure
+                        can become difficult to avoid.
                     </p>
-                    <ul className='list-decimal ml-5 mt-5 gap-2 grid'>
-                        <li>
-                            <h3 className='font-heading font-semibold text-lg text-yellow-500'>
-                                Reduced Blood Circulation
-                            </h3>
-                            <p className='text-gray-600'>
-                                World-renowned professor, Dr. Magda Havas,
-                                Ph.D., said that EMF radiation causes Rouleau
-                                formation (unhealthy blood).{' '}
-                                <Link
-                                    className='underline'
-                                    href={
-                                        'https://pubmed.ncbi.nlm.nih.gov/24192494/'
-                                    }
-                                >
-                                    Read more here.
-                                </Link>
-                            </p>
-                        </li>
-                        <li>
-                            <h3 className='font-heading font-semibold text-lg text-yellow-500'>
-                                Unhealthy Heart
-                            </h3>
-                            <p className='text-gray-600'>
-                                E.g. Fluctuations in blood pressure
-                                untreatable by medication, heart attacks and
-                                strokes among the younger population
-                            </p>
-                        </li>
-                    </ul>
+                </header>
+
+                <div className='mt-10 grid gap-6 md:grid-cols-3'>
+                    <article className='rounded-xl border border-gray-200 bg-white p-5 text-left shadow-sm'>
+                        <h3 className='font-heading text-lg font-semibold text-gray-900'>
+                            Homes and offices
+                        </h3>
+                        <p className='mt-2 text-sm leading-relaxed text-gray-600'>
+                            Laptops, televisions, wireless devices and smart
+                            appliances contribute to persistent electromagnetic
+                            fields throughout the day.
+                        </p>
+                    </article>
+                    <article className='rounded-xl border border-gray-200 bg-white p-5 text-left shadow-sm'>
+                        <h3 className='font-heading text-lg font-semibold text-gray-900'>
+                            Vehicles and transit
+                        </h3>
+                        <p className='mt-2 text-sm leading-relaxed text-gray-600'>
+                            Car electronics, radio systems and charging
+                            infrastructure increase your exposure even while
+                            commuting.
+                        </p>
+                    </article>
+                    <article className='rounded-xl border border-gray-200 bg-white p-5 text-left shadow-sm'>
+                        <h3 className='font-heading text-lg font-semibold text-gray-900'>
+                            Shared public spaces
+                        </h3>
+                        <p className='mt-2 text-sm leading-relaxed text-gray-600'>
+                            Public areas such as buses and commercial buildings
+                            often contain multiple overlapping radiation sources.
+                        </p>
+                    </article>
+                </div>
+
+                <div className='mt-8 rounded-2xl border border-yellow-300/70 bg-yellow-100/70 p-5 text-center md:p-7'>
+                    <p className='text-lg font-medium leading-relaxed text-gray-900 md:text-2xl'>
+                        As exposure to electromagnetic pollution grows, proactive
+                        and portable EMF protection at home and on the go
+                        becomes increasingly important.
+                    </p>
+                </div>
+
+                <div className='mt-10 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]'>
+                    <figure className='flex items-center justify-center rounded-2xl border border-gray-200 bg-white p-5 shadow-sm md:p-8'>
+                        <Image
+                            className='mx-auto rounded-md'
+                            src={'/Rouleau Formation.svg'}
+                            alt='Illustration of rouleau formation linked to reduced blood circulation from electromagnetic field exposure'
+                            width={420}
+                            height={420}
+                        />
+                    </figure>
+
+                    <article className='rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-8'>
+                        <h3 className='font-heading text-2xl font-semibold text-gray-900'>
+                            Commonly discussed EMF health concerns
+                        </h3>
+                        <p className='mt-3 text-base leading-relaxed text-gray-700'>
+                            Reports of EMF sensitivity have increased as device
+                            usage has expanded. Frequently discussed concerns
+                            include circulation, cardiovascular stress and sleep
+                            quality.
+                        </p>
+                        <ul className='mt-6 grid gap-5'>
+                            <li>
+                                <h4 className='font-heading text-lg font-semibold text-yellow-600'>
+                                    Reduced blood circulation
+                                </h4>
+                                <p className='mt-1 text-sm leading-relaxed text-gray-600'>
+                                    Dr. Magda Havas and colleagues have written
+                                    about rouleau formation and blood flow
+                                    changes linked to EMF exposure.{' '}
+                                    <Link
+                                        className='underline underline-offset-2'
+                                        href='https://pubmed.ncbi.nlm.nih.gov/24192494/'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        Review the PubMed reference
+                                    </Link>
+                                    .
+                                </p>
+                            </li>
+                            <li>
+                                <h4 className='font-heading text-lg font-semibold text-yellow-600'>
+                                    Cardiovascular strain
+                                </h4>
+                                <p className='mt-1 text-sm leading-relaxed text-gray-600'>
+                                    Some people report heart-rate variability
+                                    and blood-pressure instability around high
+                                    EMF environments.
+                                </p>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
             </div>
-
-            
         </section>
     );
 };
