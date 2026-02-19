@@ -11,7 +11,7 @@ import JoinOurEvent from '../components/JoinOurEvent';
 import TestimonialsBanner from '../components/TestimonialsBanner';
 import SpecificationBanner from '../components/SpecificationBanner';
 import HealthBenefitsBanner from '../components/HealthBenefitsBanner';
-import RadiationImpactsBanner from '../components/RadiationImpactsBanner';
+import RadiationImpactsBanner from '../components/4_RadiationImpacts';
 import SolutionBanner from '../components/SolutionBanner';
 
 export default function Home() {
@@ -27,7 +27,6 @@ export default function Home() {
 
                 <SurroundingRadiationBanner />
 
-                {/* IMPACT: Show the health consequences */}
                 <RadiationImpactsBanner />
 
                 {/* SOLUTION: Introduce emGuarde as the answer */}
