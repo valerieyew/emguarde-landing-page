@@ -12,7 +12,7 @@ import TestimonialsBanner from '../components/TestimonialsBanner';
 import SpecificationBanner from '../components/SpecificationBanner';
 import HealthBenefitsBanner from '../components/HealthBenefitsBanner';
 import RadiationImpactsBanner from '../components/4_RadiationImpacts';
-import SolutionBanner from '../components/SolutionBanner';
+import SolutionBanner from '../components/5_SolutionBanner';
 
 export default function Home() {
     return (
