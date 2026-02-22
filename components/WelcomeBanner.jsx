@@ -70,8 +70,8 @@ const WelcomeBanner = () => {
                             height={600}
                             priority
                         />
-                        <p className='text-center text-sm text-yellow-300 mt-4 font-semibold'>
-                            emGuarde Radiation Reducer - Proven EMF Protection
+                        <p className='text-center text-lg text-yellow-300 mt-4 font-semibold'>
+                            emGuarde Radiation Reducer
                         </p>
                     </div>
                 </div>
