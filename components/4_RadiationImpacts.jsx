@@ -63,14 +63,14 @@ const RadiationImpactsBanner = () => {
                     </p>
                 </header>
 
-                <div className='mt-8 rounded-2xl border border-red-400/60 bg-gradient-to-r from-red-900/40 via-black to-red-900/40 p-5 text-center md:p-8'>
-                    <p className='text-lg font-semibold leading-relaxed text-red-100 md:text-2xl'>
+                <div className='mt-8 rounded-2xl border border-yellow-300/50 bg-gradient-to-r from-zinc-900 via-black to-zinc-900 p-5 text-center md:p-8'>
+                    <p className='text-lg font-semibold leading-relaxed text-yellow-100 md:text-2xl'>
                         The main concern is long-term daily exposure from devices used close to the body.
                     </p>
                 </div>
 
                 <div className='mt-10 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]'>
-                    <figure className='flex flex-col items-center justify-center rounded-2xl border border-red-500/40 bg-gradient-to-br from-red-900/20 to-black p-5 shadow-lg md:p-8'>
+                    <figure className='flex flex-col items-center justify-center rounded-2xl border border-white/25 bg-gradient-to-br from-zinc-900 to-black p-5 shadow-lg md:p-8'>
                         <Image
                             className='mx-auto rounded-md'
                             src={'/Rouleau Formation.svg'}
@@ -93,7 +93,7 @@ const RadiationImpactsBanner = () => {
                         </p>
                     </figure>
 
-                    <article className='rounded-2xl border border-red-500/40 bg-gradient-to-br from-red-900/20 to-black p-6 shadow-lg md:p-8'>
+                    <article className='rounded-2xl border border-white/25 bg-gradient-to-br from-zinc-900 to-black p-6 shadow-lg md:p-8'>
                         <h3 className='font-heading text-2xl font-semibold text-white'>Why this matters</h3>
 
                         <ul className='mt-5 grid gap-5'>

@@ -38,7 +38,7 @@ const radiationSources = [
 ];
 
 const cardClassName =
-    'rounded-xl border border-red-400/40 bg-gradient-to-br from-red-600/20 to-red-900/20 p-6 text-left shadow-lg';
+    'rounded-xl border border-red-500/40 bg-gradient-to-br from-red-600/40 to-red-900/40 p-6 text-left shadow-lg';
 
 const titleClassName = 'text-xl md:text-2xl font-semibold text-red-200';
 const listClassName = 'space-y-2 text-base md:text-lg text-gray-100 font-medium';
