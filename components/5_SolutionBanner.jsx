@@ -2,15 +2,19 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const riskPoints = [
-    'Persistent fatigue and slower mental clarity',
-    'Headaches and interrupted sleep patterns',
-    'Stress from continuous device-heavy exposure',
+    'Fatigue and brain fog',
+    'Headaches and poor sleep',
+    'Long-term health concerns',
+    'Stress from constant radiation exposure',
+    'Higher concern for children and sensitive users',
 ];
 
 const solutionPoints = [
-    'Patented 4-meter radiation neutralisation with low 0.5W usage',
-    'Supports clearer focus, steadier energy, and a more productive day in device-heavy environments',
-    'Helps create a calmer nighttime setting for deeper, less interrupted sleep',
+    '24/7 protection for your family',
+    'Supports smoother blood flow',
+    'Keeps your mind clearer and calmer',
+    'Higher quality sleep at night',
+    'Light and easy for travel and daily use',
 ];
 
 const SolutionBanner = () => {
@@ -35,12 +39,12 @@ const SolutionBanner = () => {
                         A Professional Layer of Protection
                         <span className='mt-2 block text-amber-700'>for a High-Exposure Digital Life</span>
                     </h2>
-                    <p className='mx-auto mt-5 max-w-4xl text-base leading-relaxed text-slate-700 md:text-xl'>
+                    {/* <p className='mx-auto mt-5 max-w-4xl text-base leading-relaxed text-slate-700 md:text-xl'>
                         After understanding the health impact of constant radiation exposure, families and
                         professionals need more than a temporary fix. emGuarde is designed as a daily-use EMF
                         radiation harmoniser that supports a safer environment while your devices remain fully
                         in use.
-                    </p>
+                    </p> */}
                 </header>
 
                 <div className='grid gap-8 lg:grid-cols-[1.15fr_0.85fr]'>
